@@ -63,7 +63,7 @@ El sistema opera como una plataforma web que conecta pacientes con profesionales
 
 El proyecto sigue una arquitectura modular separando la lógica de negocio, los esquemas de datos y las rutas.
 
-### Estructura del Back-End
+### Estructura del Back-End & Front-End
 ```bash
 /backend
  ├── config/          # Configuración de Base de Datos
