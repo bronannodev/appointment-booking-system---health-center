@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Reset y base mínimos para permitir diseño full-width */
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: #0f172a; /* slate-900 */
+  color: #e5e7eb; /* gray-200 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+@keyframes logo-loop {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Marquee al estilo ReactBits: controlado por variable --speed, pausa al hover desde el contenedor */
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
