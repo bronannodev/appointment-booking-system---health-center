@@ -42,7 +42,7 @@ El sistema opera como una plataforma web que conecta pacientes con profesionales
 
 ### Back-End
 * **Lenguaje:** Python.
-* **Framework:** FastAPI (Alto rendimiento para construcción de APIs).
+* **Framework:** FastAPI.
 * **Seguridad:** Argon2 (Hashing) y JWT (Tokens).
 * **Entorno:** Virtualenv (`.venv`).
 
